@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
 
+ 
+
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +15,26 @@ div.nav-bar {
     padding: 1rem 6rem;
     width: 100vw;
     background: #304353;
-}
+    
+    
+ }
+
+ @media only screen and (max-width: 600px) {
+    div.nav-bar {background: #801a00;}
+  }
+
+  @media only screen and (min-width: 600px) {
+    div.nav-bar {background: #448000;}
+  }
+
+ @media only screen and (min-width: 768px) {
+    div.nav-bar {background: rgb(0, 2, 128);}
+  }
+
+  @media only screen and (min-width: 992px) {
+    div.nav-bar {background: rgb(128, 0, 128);}
+  }
+
 
 div.logo {
     font-size: 1.5rem;
@@ -345,3 +366,8 @@ div.footer h6 {
     font-size: 1rem;
     padding-top: 6rem;
 }
+
+
+
+
+
