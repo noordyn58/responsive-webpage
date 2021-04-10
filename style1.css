@@ -81,8 +81,6 @@
 
 .nav-link::before,
 .nav-link::after {
-    
-    /* content: '\257C'; */
     content: ' \257E';
     width: 100px;
     height: 2px;
@@ -108,17 +106,6 @@
 .nav-link:hover:after {
     transform: scaleX(1);
 }
-
-
-/* div.nav-bar {
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem 6rem;
-    width: 100vw;
-    background: #304353;
-    
-    
- } */
 
  @media only screen and (max-width: 600px) {
     .navbar {background: #801a00;}
